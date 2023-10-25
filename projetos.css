@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Handjet:wght@700&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body{
+    background:linear-gradient(80deg,black ,rgb(159, 130, 135) );
+    background-attachment: fixed;
+}
+
+.logo{
+    color: white;
+    font-size: 30px;
+    align-items: center;
+    display: flex;
+    margin-left:110px;
+}
+
+.logo2{
+    color: red;
+}
+
+header{
+    display: flex;
+    height: 100px;
+}
+
+.header-content{
+    display: flex;
+    margin-left: 750px;
+    gap: 50px;
+    align-items: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.header-content a:hover{
+    color:rgb(99, 16, 99);
+}
+
+ .content-section{
+    margin-top: 170px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+    justify-content: space-between;
+    display:flex;
+    width: auto 0;
+    /* border:1px solid red; */
+}  
+
+h1{
+    font-size: 90px;
+    text-align: center;
+    color: white;
+    /* border: 1px solid red; */
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+
+main{
+    height: 810px;
+    /* border: 1px solid white; */
+}
+
+.projeto{
+    border: 5px solid white;
+    border-radius: 20%;
+    transition: 1s;
+    padding: 90px 80px;
+    margin-left: 60px;
+    animation: bounce 2s ease-in-out 0.5s infinite;
+}
+
+.projeto1{
+    border: 5px solid white;
+    border-radius: 20%;
+    transition: 1s;
+    padding: 90px 80px;
+    display: flex;
+    margin-left: 60px;
+    animation: bounce 2s ease-in-out 0.5s infinite;
+}
+.projeto1:hover{
+    background-color: white;
+    border: 5px solid gray;
+}
+.link:hover{
+    color:black;
+}
+
+.projeto:hover{
+    background-color: white;
+    border: 5px solid gray;
+    color: black;
+}
+
+i{
+    font-size: 30px;
+}
+
+@keyframes bounce {
+  
+ 
+    0%, 100% {
+        transform: translateY(0);
+      }
+      50% {
+        transform: translateY(-20px);
+      }
+    }
+
+

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portifólio Robson</title>
+    <link rel="stylesheet" href="sobre.css">
+</head>
+<body>
+
+     <header> 
+                  
+                    <div class="logo"><span class="logo1">R</span><span class="logo2">L</span></div>
+
+                         <!-- CONTEÚDO DO MEU CABEÇALHO -->
+                      <div class="header-content">
+                         <a href="index.html">Início</a>
+                         <a href="sobremim.html">Sobre mim</a>
+                         <a href="projetos.html">Projetos</a>
+                        <a href="habilidades.html">Habilidades</a>
+                        </div>
+
+    </header>
+
+        <section-gif>
+            <div class="gif-gif">
+                <img class="gif" src="img/gif.gif" alt=""> 
+           </div>
+        </section-gif>
+
+            <section class="content-section">
+
+               
+
+                <h2>About me</h2>
+                <p id="texto-animado"></p>
+             </section> 
+
+                 <footer>
+
+                </footer>
+
+        <script>
+
+                const texto = "Meu nome e Robson Luiz e acabei me apaixonando por tecnologia.  E tive o primeiro contato com programaçao foi em 2022, quando ainda estava no ensino médio. Apesar de ter gostado da área, só comecei a dar o devido foco no começo do ano de 2023, quando um vizinho meu me apresentou as áreas de programação e TI.Hoje já entendo tecnologias voltadas para o Front-end.Também gosto de brincar com design no figma, criando interfaces para projetos pessoais e de amigos."
+             const elemento = document.getElementById("texto-animado");
+        let i = 0;
+
+        function escreverTexto() {
+            if (i < texto.length) {
+                elemento.innerHTML += texto.charAt(i);
+                i++;
+                setTimeout(escreverTexto, 50); // Para  ajustar o tempo para controlar a velocidade de digitação do texto
+            }
+        }
+
+        escreverTexto();
+        </script>
+   
+</body>
+</html>

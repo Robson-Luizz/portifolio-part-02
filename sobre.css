@@ -1,0 +1,98 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Handjet:wght@700&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body{
+    background:linear-gradient(80deg,black ,rgb(159, 130, 135) );
+    background-attachment: fixed;
+}
+
+.logo{
+    color: white;
+    align-items: center;
+    font-size: 30px;
+    display: flex;
+    margin-left:110px;
+}
+
+.logo2{
+    color: red;
+}
+
+header{
+    display: flex;
+    height: 100px;
+    /* margin-top: 22px; */
+    align-items: center;
+}
+
+.header-content{
+    display: flex;
+    margin-left: 750px;
+    gap: 50px;
+    align-items: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+     /* margin-top: -20px;  */
+}
+
+.header-content a:hover{
+    color: rgb(78, 161, 78);
+}
+
+.content-section{
+    align-items: center;
+    justify-content: center;
+    margin-left: 900px;
+    margin-top: 56px;
+    color: white;
+    font-size: 22px;
+    width: 700px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+h2{
+    font-size: 100px;
+    color: white;
+    font-family:'Handjet', cursive;
+    justify-content: center;
+    display: flex;
+}
+
+footer{
+    background-color: rgba(40, 36, 36, 0.44);
+    color: white;
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+    height: 60px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+
+.gif-gif{
+ 
+    margin-right: 500px;
+    height: 100px;
+    width: 100px;
+    margin-left: 200px; 
+    margin-bottom: 100px;
+} 
+
+.gif{
+   
+    border: 1px solid;
+    height: 400px;
+    width: 400px;
+    margin-top: 200px;
+    margin-right: 00px;
+    border: 4px solid white;
+    border-radius: 30px;
+}
